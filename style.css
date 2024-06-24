@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+}
+
+label {
+    display: block;
+}
+
+button {
+    background-color: rgb(0, 60, 255);
+    border-radius: 10px;
+    width: 80%;
+    height: 50px;
+    color: white;
+    font-size: 1em;
+}
+
+.title {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ****** */
+
+.container {
+  display: flex;
+  width: 60%;
+  height: 50%;
+  border: 5px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-container, .right-container {
+  padding: 20px;
+}
+
+.left-container {
+  width: 40%;
+  border-right: 1px solid #ccc;
+}
+
+.right-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+}
+
+#chartContainer {
+  width: 100%;
+}
+
+.chart {
+  width: 80%;
+  height: 400px; 
+  margin-bottom: 20px;
+}
+
+/* ****** */
+
+#channel-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 80%;
+}
+
+.field label {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.field input {
+  height: 30px;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+#nyquist-result, #shannon-result {
+  font-weight: bold;
+  text-align: left;
+}
